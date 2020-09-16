@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#">SHU</a><button data-toggle="collapse"
+                class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#statistics">Measures</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <section class="clean-block clean-hero"
+            style="background-image: url(&quot;assets/img/doctor-netherlands-1920x1080.jpg&quot;);color: rgba(9, 162, 255, 0.75);">
+            <div class="text">
+                <h1>Smart Health Update</h1>
+                <p>Hello doctor! want you to consulte your current patient measures ? &nbsp;Then click the button below.
+                </p> <button
+                    onClick='document.getElementById("statistics").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});'
+                    class="btn btn-outline-light btn-lg" type="button"> <i class="fa fa-arrow-circle-down"
+                        style="font-size: 40px;"></i></button>
+            </div>
+        </section>
+        <section id="statistics" class="clean-block clean-info dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">measures</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="contact-info portfolio-info-card">
+                                    <h4 class="text-primary">Patient Info</h4>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-android-calendar icon"
+                                                style="color: rgb(59,153,224);"></i></div>
+                                        <div class="col-9"><span>10/10/1990</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-person icon"
+                                                style="color: rgb(59,153,224);"></i></div>
+                                        <div class="col-9"><span>John Smith</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-ios-telephone icon"
+                                                style="color: rgb(59,153,224);"></i></div>
+                                        <div class="col-9"><span>+235 3217 424</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-at icon"
+                                                style="color: rgb(59,153,224);"></i></div>
+                                        <div class="col-9"><span>lorem@email.com</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"><span>Current temperature (°C) :</span></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><input id="m0" class="border rounded shadow-sm form-control-sm"
+                                    type="text" placeholder="Temperature in °C"></div>
+                            <div class="col-md-6"><span>at&nbsp;</span><input id="t0"
+                                    class="border rounded shadow-sm form-control-sm" type="text" placeholder="time">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col"><span>Last three measures :</span></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><input id="m1" class="border rounded shadow-sm form-control-sm"
+                                    type="text" placeholder="Temperature in °C"></div>
+                            <div class="col-md-6"><span>at&nbsp;</span><input id="t1"
+                                    class="border rounded shadow-sm form-control-sm" type="text" placeholder="time">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><input id="m2" class="border rounded shadow-sm form-control-sm"
+                                    type="text" placeholder="Temperature in °C"></div>
+                            <div class="col-md-6"><span>at&nbsp;</span><input id="t2"
+                                    class="border rounded shadow-sm form-control-sm" type="text" placeholder="time">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><input id="m3" class="border rounded shadow-sm form-control-sm"
+                                    type="text" placeholder="Temperature in °C"></div>
+                            <div class="col-md-6"><span>at&nbsp;</span><input id="t3"
+                                    class="border rounded shadow-sm form-control-sm" type="text" placeholder="time">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><span style="opacity: 0;">_</span></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col"><span>Last critical temperature:</span></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><input id="m4" class="border rounded shadow-sm form-control-sm"
+                                    type="text" placeholder="Temperature in °C"></div>
+                            <div class="col-md-6"><span>at&nbsp;</span><input id="t4"
+                                    class="border rounded shadow-sm form-control-sm" type="text" placeholder="time">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><span style="opacity: 0;">_</span></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><span style="opacity: 0;">_</span></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><span style="opacity: 0;">_</span></div>
+                            <div class="col"><button id="historyButton" class="btn btn-outline-primary"
+                                    type="button">Temperature
+                                    History<br></button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><button id="criticalButton" class="btn btn-outline-primary"
+                                    type="button">Critical
+                                    Temperature History<br></button></div>
+                            <div class="col-md-6"><button class="btn btn-primary btn-block float-right" type="button"
+                                    style="width: 97px;margin-right: 22px;" id="viewButton">View</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"><span style="opacity: 0;">_</span></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="footer-copyright">
+            <p>© 2020 Copyright Text</p>
+        </div>
+    </footer>
+
+
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/card-information.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
